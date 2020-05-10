@@ -16,7 +16,7 @@ func main() {
 
 	// Evaluate CSV file path
 	var filename string
-	flag.StringVar(&filename, "file", "../../problems.csv", "file to read problems from")
+	flag.StringVar(&filename, "file", "./problems.csv", "file to read problems from")
 	flag.Parse()
 
 	// Used to read user input from stdin
